@@ -1,7 +1,7 @@
 {
 	"name": "insulterator",
 	"version": "1.0.0",
-	"description": "An insult generator for today's discriminating politician.",
+	"description": "An insult generator for the modern day politician.",
 	"main": "index.html",
 	"scripts": {
 		"test": "."

@@ -1,0 +1,61 @@
+// Variables
+
+// Color assignments
+@font-color: @light;
+@button-bg: @red;
+@main-bg: @light;
+@footer-bg: @red;
+
+// Colors
+@dark: #222;
+@red: #ff0000;
+@light: #fcfafa;
+
+// Font Families
+@headings: 'Carter One', cursive;
+@copy: 'Bellefair', serif;
+@display: 'Fira Sans', sans-serif;
+
+// Begin Homepage Styles
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+
+	body {
+		background: @light;
+		color: @dark;
+		font-family: @copy;
+
+		#content-container {
+			width: 100%;
+			max-width: 980px;
+			.container {
+				border: 1px dotted #444;
+				h1,
+				h2 {
+					font-family: @headings;
+					color: @dark;
+				}
+				h1 {
+					font-size: 3rem;
+				}
+				h2 {
+					font-size: 1.5rem;
+				}
+				p {
+					font-size: 1rem;
+					color: @dark;
+					font-family: @display;
+				}
+			}
+			#footer {
+				background-color: @red;
+				color: @light;
+				font: 1rem @dark @copy;
+			}
+		}
+	}
+}

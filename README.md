@@ -1,3 +1,3 @@
 # Insulterator
 
-## Insult Generator
+## Insult Generator for the Modern Day Bully
