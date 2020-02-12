@@ -1,0 +1,3 @@
+# Insulterator
+
+## Insult Generator
